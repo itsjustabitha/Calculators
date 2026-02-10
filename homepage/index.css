@@ -1,0 +1,53 @@
+
+/* Fix the Body */
+.background {
+    background-color: #f7f5f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the Nav */
+.nav {
+    background-color: #330404;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav ul {
+    display: flex; /* Makes the list items sit in a row */
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+/* New Centering Wrapper for the Calculator */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Takes up most of the screen height */
+    padding-bottom: 60px; /* Space for the footer */
+}
+
+/* Ensure the footer doesn't cover content */
+.footer {
+    background-color: #651A14;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
